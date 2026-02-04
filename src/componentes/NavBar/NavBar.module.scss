@@ -1,0 +1,50 @@
+.navBar{
+    background-color: #205691;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+    height: 16vh;
+    width: 100%;
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 50ch;
+    }
+    a{
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .logoImagem{
+        border: 2px solid red;
+         border-radius: 50%;
+    }
+
+    .logoPerfil{
+           height: 12vh;
+        width: 6vw;
+        border-radius: 90%;
+        border: solid #00aaff 5px;
+    }
+
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+.navBar{
+    a{
+        font-size: 0.9rem;
+    }
+    .logoImagem{
+        width: 15vw;
+
+    }
+
+    .logoPerfil{
+        height: 7vh;
+        width: 10;
+    }
+}
+}
