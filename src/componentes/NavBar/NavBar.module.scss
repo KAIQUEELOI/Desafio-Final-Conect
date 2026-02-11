@@ -19,7 +19,7 @@
     }
 
     .logoImagem{
-        border: 2px solid red;
+    
          border-radius: 50%;
     }
 
@@ -27,15 +27,23 @@
            height: 12vh;
         width: 6vw;
         border-radius: 90%;
-        border: solid #00aaff 5px;
+        
     }
 
 }
 
 @media (min-width: 201px) and (max-width: 500px) {
 .navBar{
+    height: 10vh;
+    border: solid 2px red;
+
+
+    ul{
+        border:solid 3px yellow
+        
+    }
     a{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .logoImagem{
         width: 15vw;
@@ -47,4 +55,8 @@
         width: 10;
     }
 }
+}
+
+@media (max-width: 400px) {
+  
 }

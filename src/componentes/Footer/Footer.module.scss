@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.footerSection{
+      background-color: #205691;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 16vh;
+    width: 100%;
+    color: white;
+
+    
+}
+
+.logoFooter{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 25%;
+
+    p{
+        font-size: 1.5rem;
+        font-weight: 600;
+        width: 25%;
+        
+    }
+}
+.imgContainer{
+    display: flex;
+   gap: 10px ;
+}
+
+//responsividade//
+
+@media (min-width: 201px) and (max-width: 500px) {
+
+
+
+.footerSection{
+    
+      flex-direction: column-reverse;
+      height: 25vh;
+      width: 100%;
+      
+
+    
+}
+
+.logoFooter{
+   
+
+    p{
+
+    }
+}
+.imgContainer{
+    
+}
+}
+ 
